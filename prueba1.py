@@ -24,3 +24,10 @@ class Papeleria:
     def mostrar_todos_los_articulos(self):
         for articulo in self.articulos:
             articulo.mostrar_informacion()
+papeleria = Papeleria()
+
+
+cuaderno50 = Articulos(tipo="Cuaderno", detalle="50 hojas", precio_compra=2.50)
+cuaderno100 = Articulos(tipo="Cuaderno", detalle="100 hojas", precio_compra=4.00)
+lapiz_grafito = Articulos(tipo="Lápiz", detalle="Grafito", precio_compra=0.50)
+lapiz_colores = Articulos(tipo="Lápiz", detalle="Colores", precio_compra=1.00)
