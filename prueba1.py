@@ -17,4 +17,10 @@ class Articulos:
 class Papeleria:
     def __init__(self):
         self.articulos = []
-        
+
+    def registrar_articulo(self, articulo):
+        self.articulos.append(articulo)
+
+    def mostrar_todos_los_articulos(self):
+        for articulo in self.articulos:
+            articulo.mostrar_informacion()
