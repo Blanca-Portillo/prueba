@@ -14,3 +14,7 @@ class Articulos:
         print(f"Precio de compra: ${self.precio_compra}")
         print(f"Precio de venta: ${self.precio_venta}")
         print("--------------------------------------------------------------")
+class Papeleria:
+    def __init__(self):
+        self.articulos = []
+        
